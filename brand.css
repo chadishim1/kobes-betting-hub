@@ -1,0 +1,15 @@
+.brand-logo {
+  display: block;
+  width: 74px;
+  height: 74px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+@media (max-width: 760px) {
+  .brand-logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+  }
+}
